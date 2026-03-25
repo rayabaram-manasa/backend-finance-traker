@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: "https://finance-traker.onrender.com",
+  origin: "https://finance-traker-app.onrender.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
 }));
 
